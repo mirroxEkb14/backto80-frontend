@@ -1,0 +1,16 @@
+Retro Store Showcase
+
+Aplikace pro prohlížení aktuální nabídky kamenných obchodů řetězce Back To 80's
+
+Aplikace bude sloužit jako možnost pro stávající a potenciální zákazníky podívat
+se na aktuální nabídku produktů, dostupných v kamenných obchodech řetězce pro
+milovníky retro filmů a chudby. Zbožím jsou VHS kazety a audio kazety, případně
+celé balíčky obsahující jak VHS kazetu, tak i audio kazetu. Návštěvníci webu se
+budou moct podívat např. na cenu a krátký popis výrobků. Tyto produkty web bude
+uchovávat jako různé kategorie.
+
+Aplikace nebude řešit registraci/přihlášení uživatelů, pak možnost objednat nebo
+předobjednat nějaký z výrobků také nebude dostupná – web bude sloužit jenom jako
+náhled dostupného zboží. Pak bude minimálně obsahovat nějakou domovskou stránku,
+stránku se seznamem produktů, případně nějaké další. Z každé stránky uživatel se
+bude moct dostat do libovolné jiné.

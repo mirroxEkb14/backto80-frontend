@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Back to 80's - Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/product-styles.css">
 </head>
 <body>
-    <h1>Our Products</h1>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html" class="header-text">Back to 80's</a>
+        </div>
+        <nav class="nav-bar">
+            <ul class="nav-menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/products.html">Products</a></li>
+                <li><a href="/pages/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p>Please visit our brick-and-mortar store to arrange your purchase!</p>
+        </div>
+    </div>
+
+    <main>
+        <h1>Our Retro Collections</h1>
+
+        <nav class="category-nav">
+            <a href="#movies">🎞 VHS Movies</a>
+            <a href="#audio">💽 Audio Cassettes</a>
+            <a href="#packages">📦 Collector’s Packages</a>
+        </nav>
+
+        <!-- VHS MOVIES -->
+        <section id="movies" class="category-section">
+            <h2>VHS Movies</h2>
+            <div class="product-list">
+                <!-- VHS 1 -->
+                <div class="product-item">
+                    <img src="/assets/movies/product_hvs_chernobyl.png" alt="VHS - Chernobyl">
+                    <h2>Chernobyl</h2>
+                    <p>Historical drama about the nuclear disaster and human courage</p>
+                    <p class="price">35€</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- AUDIO CASSETTES -->
+        <section id="audio" class="category-section">
+            <h2>Audio Cassettes</h2>
+            <div class="product-list">
+                <!-- Audio 1 -->
+                <div class="product-item">
+                    <img src="/assets/audio/audio_cassette_ai_vist_lo_lop.png" alt="Audio Cassette - Ai Vist Lo Lop">
+                    <h2>Ai Vist Lo Lop</h2>
+                    <p>Experimental electronic sounds exploring abstract landscapes</p>
+                    <p class="price">25€</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COLLECTOR’S PACKAGES -->
+        <section id="packages" class="category-section">
+            <h2>Collector’s Packages</h2>
+                <div class="product-list">
+                    <!-- Package 1 -->
+                    <div class="product-item">
+                        <img src="/assets/packages/package_8_mm.png" alt="Package - Movie 1">
+                        <h2>8 MM</h2>
+                        <p>Retro Package</p>
+                        <p>Step into the dark and thrilling world of investigative journalism with this iconic film</p>
+                        <p class="price">50€</p>
+                    </div>
+        </section>
+
+        <a href="/index.html" class="back-link">Back to Home</a>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Back to 80's - VHS and Cassette Store. All Rights Reserved.</p>
+            <p><b>Follow us:</b></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="/assets/facebook-logo.webp" alt="Facebook"> Facebook
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="/assets/instagram-logo.webp" alt="Instagram"> Instagram
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="/assets/twitter-logo.webp" alt="Twitter"> Twitter
+                </a>
+                <a href="https://web.telegram.org" target="_blank">
+                    <img src="/assets/telegram-logo.webp" alt="Telegram"> Telegram
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
